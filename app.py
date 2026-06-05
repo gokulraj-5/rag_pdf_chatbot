@@ -1,7 +1,3 @@
-# Fix SQLite version for ChromaDB on Streamlit Cloud
-__import__('pysqlite3')
-import sys
-sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 # -*- coding: utf-8 -*-
 import os
 import re
